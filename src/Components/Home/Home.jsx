@@ -59,7 +59,7 @@ export function Home() {
           >
             <h3>Hasselblad L2D-20C</h3>
             <p>The Hasselblad L2D-20c Drone Camera stands as a pinnacle of innovation in the realm of drone-based photography. Its ability to capture stunning aerial visuals with precision and efficiency makes it an essential tool for professionals in various fields.</p>
-            <Link to={"http://localhost:3000/camera"}>
+            <Link to={"https://drono-fly.vercel.app/camera"}>
              <button>Learn More</button>
             </Link>
           </div>
