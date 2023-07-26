@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding: 0rem 5rem;
+    background-color: 	#050507;
+    color: white;
+}
+
+.n-left {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7rem;
+    opacity: 0.9;
+}
+
+.n-right {
+    display: flex;
+    width: 16rem;
+    justify-content: space-between;
+}
+.n-right > a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: large;
+    /* margin-right: 10px; */
+    /* border: 2px solid red; */
+}
+

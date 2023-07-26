@@ -1,0 +1,106 @@
+.camera_container {
+    /* border: 3px solid rgb(0, 148, 141); */
+    height: 42.1rem;
+}
+
+.camera_container > .camera_video > video {
+    height: 42.1rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.camera_container > .camera_specifications {
+    background-color: #1c1c1c;
+    width: 100%;
+    /* padding: 3rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-top: -4px;
+}
+
+.camera_container > .camera_specifications > .left_camera > img{
+    width: 45rem;
+    height: 30rem;
+    object-fit: cover;
+    padding: 3rem 1rem 3rem 2rem;
+    border-radius: 100px;
+    flex: 1;
+}
+
+.camera_container > .camera_specifications > .right_camera > img{
+    width: 95%;
+    height: 30rem;
+    object-fit: cover;
+    padding: 3rem 3rem 3rem 1rem;
+    border-radius: 100px;
+}
+
+.camera_container > .camera_specifications > .right_camera > img, .left_camera:hover > img {
+    cursor: pointer;
+}
+
+
+
+
+.camera_container > .camera_specifications > .left_camera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.camera_container > .camera_specifications > .left_camera > .cam1_description {
+    position: absolute;
+    width: 44rem;
+    height: 30rem;
+    padding-right: 1rem;
+    /* border: 2px solid red; */
+    border-radius: 100px;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    backdrop-filter: blur(8px);
+}
+
+.camera_container > .camera_specifications > .left_camera > .cam1_description > p {
+    font-size: 15px;
+    /* letter-spacing: 1px; */
+    /* word-spacing: 3px; */
+    opacity: 0.67;
+    padding: 0rem 2rem 0rem 3rem;
+}
+
+.camera_container > .camera_specifications > .right_camera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.camera_container > .camera_specifications > .right_camera > .cam2_description {
+    position: absolute;
+    width: 42.3rem;
+    height: 30rem;
+    padding-right: 1rem;
+    /* border: 2px solid red; */
+    border-radius: 100px;
+    margin-left: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    backdrop-filter: blur(8px);
+}
+
+.camera_container > .camera_specifications > .right_camera > .cam2_description > p {
+    font-size: 15px;
+    opacity: 0.67;
+    padding: 0rem 2rem 0rem 3rem;
+}
